@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="bg">
+            
+            <div class="nav">
+                <i class="ri-gemini-fill"></i>
+                <h2>Let AI predict what this year will bring</h2>
+                <div id="mb">
+                    <i class="ri-circle-fill"></i>
+                    <h3>Built By <span>SK</span></h3>
+                </div>
+            </div>
+
+            <h1 id="bgtxt" >Astrology</h1>
+        
+            <div class="btm">
+                <h2>2024</h2>
+                <h2 id="rt">00/12</h2>
+            </div>
+
+            <h1 id="scroll">Scroll</h1>
+        
+
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card0">
+            <img src="https://static.wixstatic.com/media/6533c5_5d84f2c92f7546ed89a0291068fc20a2~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/aries.png" alt="">
+        </div>
+        <div class="card1">
+            <img src="https://static.wixstatic.com/media/6533c5_d04a032cd1404c71bbd00856d32f9f30~mv2.png/v1/fill/w_337,h_474,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/taurus.png" alt="">
+        </div>
+        <div class="card2">
+            <img src="https://static.wixstatic.com/media/6533c5_5ebb948538fb45538886842d6fa32698~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/gemini.png" alt="">
+        </div>
+        <div class="card3">
+            <div class="card"></div>
+                <img src="https://static.wixstatic.com/media/6533c5_c9592a207ff84aa7a652e616d0bf416e~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cancer.png" alt="">
+        </div>
+        <div class="card4">
+            <img src="https://static.wixstatic.com/media/6533c5_66d82c690d8b42c49acb25aedcd440d2~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/leo.png" alt="">
+        </div>
+        <div class="card5">
+            <img src="https://static.wixstatic.com/media/6533c5_b533cda2f6ed417a87bbe93149cfe05d~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/virgo.png" alt="">
+        </div>
+        <div class="card6">
+            <img src="https://static.wixstatic.com/media/6533c5_2e7cc5f8549044fda8228e256e38cdeb~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/libra.png" alt="">
+        </div>
+        <div class="card7">
+            <img src="https://static.wixstatic.com/media/6533c5_787aa93ef52b478b93ec6e86e6f905e5~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/scorpio.png" alt="">
+        </div>
+        <div class="card8">
+            <img src="https://static.wixstatic.com/media/6533c5_0a8a24e5934b46b58b107ee61c27debf~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/sagittarius.png" alt="">
+        </div>
+        <div class="card9">
+            <img src="https://static.wixstatic.com/media/6533c5_756878753c614cc6b6ba0ea9505266fa~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/capric.png" alt="">
+        </div>
+        <div class="card10">
+            <img src="https://static.wixstatic.com/media/6533c5_eb414db26f29409da468d1d96a9f7544~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/aqueri.png" alt="">
+        </div>
+        <div class="card11">
+            <img src="https://static.wixstatic.com/media/6533c5_bc1af9d352734c328b4c0e033ef9e0fa~mv2.png/v1/fill/w_338,h_475,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/pieces.png" alt="">
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+   
+    <script src="test.js"></script>
+</body>
+</html>

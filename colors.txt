@@ -1,0 +1,15 @@
+These are the color codes according to the cards that I want.
+
+default : radial-gradient(rgba(0, 0, 0, 0.733), #321C60 15%, black 80%),
+card 0 : radial-gradient(rgba(0, 0, 0, 0.733), #9D3657 15%, black 80%),
+card 1 : radial-gradient(rgba(0, 0, 0, 0.733), #ed7032 15%, black 80%),
+card 2 : radial-gradient(rgba(0, 0, 0, 0.733), #71B856 15%, black 80%),
+card 3 : radial-gradient(rgba(0, 0, 0, 0.733), #1E94F3 15%, black 80%),
+card 4 : radial-gradient(rgba(0, 0, 0, 0.733), #C46636 15%, black 80%),
+card 5 : radial-gradient(rgba(0, 0, 0, 0.733), #543073 15%, black 80%),
+card 6 : radial-gradient(rgba(0, 0, 0, 0.733), #4D2049 15%, black 80%),
+card 7 : radial-gradient(rgba(0, 0, 0, 0.733), #1B2943 15%, black 80%),
+card 8 : radial-gradient(rgba(0, 0, 0, 0.733), #E9800B 15%, black 80%),
+card 9 : radial-gradient(rgba(0, 0, 0, 0.733), #14171F 15%, black 80%),
+card 10 : radial-gradient(rgba(0, 0, 0, 0.733), #1C5674 15%, black 80%),
+card 11 : radial-gradient(rgba(0, 0, 0, 0.733), #07203B 15%, black 80%)
