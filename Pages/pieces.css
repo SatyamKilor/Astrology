@@ -1,0 +1,262 @@
+@font-face {
+    font-family: gilroy;
+    src: url(/Fonts/Gilroy-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.main{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
+}
+
+.bg{
+    position: relative;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+    width: 30%;
+    background-color: #07203B;
+    border-radius: 50%;
+    filter: blur(80px);
+}
+
+.white{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.874);
+    border-radius: 50%;
+    filter: blur(80px);
+}
+
+
+.nav{
+    position: fixed;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    padding: 25px 22px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index: 110;
+}
+
+.ri-information-line{
+    display: none;
+}
+
+.ri-gemini-fill{
+    cursor: pointer;
+}
+
+.nav h2{
+    margin-left: 80px;
+    cursor: default;
+}
+
+.nav #mb{
+    height: fit-content;
+    display: flex;
+    align-content: center;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+ .nav #mb i{
+    padding: 1px 2px;
+    height: fit-content;
+    margin-top: 2px;
+    color: #343336;
+}
+
+.nav #mb h3{
+    padding: 0 3px;
+    height: fit-content;
+    font-weight: 100;
+    color: white;
+    background-color:#343336;
+}
+
+.nav #mb span{
+    font-weight: bold;
+}
+
+.btm{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    padding: 60px 40px;
+    color: white;
+    position: fixed;
+    z-index: 110;
+    /* background-color: black; */
+}
+
+.btm i{
+    color: rgba(255, 255, 255, 0.509);
+    font-size: 1.5vw;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.btm i:hover{
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.btm i:nth-child(12){
+    color: white;
+    font-style: bold;
+}
+
+.scroll{
+    /* background-color: red; */
+    overflow-y: hidden;
+    gap: 2.5vw;
+    color: white;
+    padding-left:7vw; 
+    padding-right: 2vw;   
+    position: absolute;
+    top: 0;
+    display: flex;
+    overflow-x: auto;
+    height: 100vh; /* Adjust height to fit between nav and btm */
+    align-items: center;
+    width: 100%; /* Ensure the scrollable area takes the full width */
+    color: white;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.scroll .maintxt{
+    flex-grow: 1; /* Allow .maintxt to grow and take available space */
+    min-width: 30%; /* Set a minimum width */
+    margin-right: 5vw;
+    display: inline-block;
+    /* background-color: blue; */
+}
+
+.scroll .maintxt h1{
+    font-size: 8vw;
+    margin-bottom: 2vw;
+    cursor: default;
+}
+
+.scroll .maintxt p{
+    line-height: 1.5vw;
+    cursor: default;
+}
+
+.scroll .baju{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+}
+
+.scroll .mainimg{
+    margin-left: 15vw;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.scroll .mainimg img{
+    height: 450px;
+    width: 320px;
+    perspective: 1000px; /* Add perspective to give a 3D effect */
+    transform-style: preserve-3d; /* Ensure child elements are transformed in 3D space */
+    transition: transform 0.2s ease-out; /* Smooth transition for the 3D effect */
+    transform-origin: center left; /* Set the origin for the 3D transformation */
+}
+
+.scroll .whitescreengroup{
+    display: flex;
+    gap: 2.5vw;
+    transform: translateX(20%);
+}
+
+.scroll .whitescreengroup::-webkit-scrollbar{
+    display: none;
+}
+
+.scroll .whitescreens{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.199);
+    color: white;
+    display: inline-block;
+    flex-direction: column;
+    height: 430px;
+    width: 580px;
+    border-radius: 20px;
+    padding: 3vw 2vw;
+    flex-shrink: 0;
+}
+
+.scroll .whitescreens::-webkit-scrollbar{
+    display: none;
+}
+
+.scroll .whitescreens h1{
+    font-size: 5vw;
+    font-style: bold;
+    cursor: default;
+}
+
+.scroll .whitescreens h3{
+    cursor: default;
+}
+
+.scroll .whitescreens p{
+    position: absolute;
+    bottom: 10%;
+    text-align: left;
+    width: 85%;
+    font-size: 1.4vw;
+    cursor: default;
+}
+
+.decoy{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+.decoy::-webkit-scrollbar{
+    display: none;
+}
+

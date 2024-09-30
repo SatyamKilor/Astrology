@@ -193,38 +193,38 @@ ScrollTrigger.create({
 
 
 cards[0].addEventListener("click", ()=>{
-    window.location.href = "./aries.html"
+    window.location.href = "./Pages/aries.html"
 });
 cards[1].addEventListener("click", ()=>{
-    window.location.href = "./tauras.html"
+    window.location.href = "./Pages/tauras.html"
 });
 cards[2].addEventListener("click", ()=>{
-    window.location.href = "./gemini.html"
+    window.location.href = "./Pages/gemini.html"
 });
 cards[3].addEventListener("click", ()=>{
-    window.location.href = "./cancer.html"
+    window.location.href = "./Pages/cancer.html"
 });
 cards[4].addEventListener("click", ()=>{
-    window.location.href = "./leo.html"
+    window.location.href = "./Pages/leo.html"
 });
 cards[5].addEventListener("click", ()=>{
-    window.location.href = "./virgo.html"
+    window.location.href = "./Pages/virgo.html"
 });
 cards[6].addEventListener("click", ()=>{
-    window.location.href = "./libra.html"
+    window.location.href = "./Pages/libra.html"
 });
 cards[7].addEventListener("click", ()=>{
-    window.location.href = "./scorpio.html"
+    window.location.href = "./Pages/scorpio.html"
 });
 cards[8].addEventListener("click", ()=>{
-    window.location.href = "./sagitarius.html"
+    window.location.href = "./Pages/sagitarius.html"
 });
 cards[9].addEventListener("click", ()=>{
-    window.location.href = "./capricorn.html"
+    window.location.href = "./Pages/capricorn.html"
 });
 cards[10].addEventListener("click", ()=>{
-    window.location.href = "./aquarius.html"
+    window.location.href = "./Pages/aquarius.html"
 });
 cards[11].addEventListener("click", ()=>{
-    window.location.href = "./pieces.html"
+    window.location.href = "./Pages/pieces.html"
 });
