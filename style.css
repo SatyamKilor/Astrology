@@ -101,6 +101,10 @@ html, body{
     font-weight: bold;
 }
 
+.ri-information-line{
+    display: none;
+}
+
 .btm{
     height: 10%;
     width: 100%;
@@ -317,10 +321,10 @@ html, body{
         z-index: 110;
         text-align: center;
     }
-    .ri-information-line{
+
+    .nav .ri-information-line{
         display: block;
         font-size: 2.3vh;
-        /* opacity: 0.5; */
     }
 
     .menuscreen {
