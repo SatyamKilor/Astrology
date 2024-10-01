@@ -274,7 +274,7 @@ html, body{
     display: none;
 }
 
-@media (max-width: 600px){
+@media (max-width: 768px){
     html, body{
         height: 100%;
         width: 100vw;
@@ -322,8 +322,10 @@ html, body{
         text-align: center;
     }
 
-    .nav .ri-information-line{
+    .ri-information-line{
         display: block;
+        color: white;
+        z-index: 999;
         font-size: 2.3vh;
     }
 

@@ -1,26 +1,3 @@
-const menu = document.querySelector(".ri-information-line");
-const menuscreen = document.querySelector(".menuscreen");
-let tapcount = 0;
-
-menu.addEventListener("click", () => {
-    if (tapcount === 0) {
-        // Slide the menu in from the right
-        gsap.to(menuscreen, {
-            right: "8%", // Bring it into view
-            duration: 0.5, // Animation duration (0.5 seconds)
-            ease: "power2.out" // Easing function for smoothness
-        });
-        tapcount = 1;
-    } else {
-        // Slide the menu back out to the right
-        gsap.to(menuscreen, {
-            right: "-100%", // Move it off-screen again
-            duration: 0.5, // Animation duration
-            ease: "power2.in" // Easing function for smoothness
-        });
-        tapcount = 0;
-    }
-});
 
 const screen = document.querySelector(".main");
 const bgtext = document.getElementById("bgtxt");
@@ -228,3 +205,28 @@ cards[10].addEventListener("click", ()=>{
 cards[11].addEventListener("click", ()=>{
     window.location.href = "./Pages/pieces.html"
 });
+if (window.innerWidth <= 768) {
+    const menu = document.querySelector(".ri-information-line");
+    const menuscreen = document.querySelector(".menuscreen");
+    let tapcount = 0;
+
+    menu.addEventListener("click", () => {
+        if (tapcount === 0) {
+            // Slide the menu in from the right
+            gsap.to(menuscreen, {
+                right: "8%", // Bring it into view
+                duration: 0.5, // Animation duration (0.5 seconds)
+                ease: "power2.out" // Easing function for smoothness
+            });
+            tapcount = 1;
+        } else {
+            // Slide the menu back out to the right
+            gsap.to(menuscreen, {
+                right: "-100%", // Move it off-screen again
+                duration: 0.5, // Animation duration
+                ease: "power2.in" // Easing function for smoothness
+            });
+            tapcount = 0;
+        }
+    });
+}
